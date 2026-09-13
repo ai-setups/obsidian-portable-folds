@@ -1,0 +1,10 @@
+{
+  "id": "portable-folds",
+  "name": "Portable Folds",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Keeps heading fold state with the note, so it survives device switches, restarts, and edits.",
+  "author": "ai-setups",
+  "authorUrl": "https://github.com/ai-setups",
+  "isDesktopOnly": false
+}
