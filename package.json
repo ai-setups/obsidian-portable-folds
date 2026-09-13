@@ -1,0 +1,23 @@
+{
+  "name": "obsidian-portable-folds",
+  "version": "0.1.0",
+  "description": "Heading fold state travels with the note, across devices and edits.",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc --noEmit --skipLibCheck && node esbuild.config.mjs production",
+    "dev": "node esbuild.config.mjs",
+    "test": "vitest run"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@codemirror/language": "^6.10.0",
+    "@codemirror/state": "6.5.0",
+    "@codemirror/view": "^6.26.0",
+    "@types/node": "^20.11.0",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.20.0",
+    "obsidian": "^1.13.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}
