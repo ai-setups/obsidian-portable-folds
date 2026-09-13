@@ -44,7 +44,9 @@ A link is a fixed string, so it only works in the fold state it was written in â
 
 Creases never records a fold on its own. You fold a heading and nothing is saved â€” you have to run a command, which means deciding in advance which folds are worth keeping. Skip it and you are back on line numbers, which fail as soon as they shift.
 
-Portable Folds writes the marker the moment you fold. No command, no decision, no fold worth less than any other. Every click is kept.
+Creases also places the marker on the heading line itself (`## Title %% fold %%`), which changes the anchor identifier and silently breaks internal links.
+
+Portable Folds writes the marker the moment you fold, on its own line below the heading. No command, no decision, no broken links, no fold worth less than any other. Every click is kept.
 
 ## Install
 
